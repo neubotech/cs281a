@@ -9,7 +9,7 @@ if ![-d $outDIR]; then
     mkdir $outDIR
 fi
 
-num_samples=9;
+num_samples=10;
 last=`echo $num_samples - 1`;
 num_frames=11;
 
