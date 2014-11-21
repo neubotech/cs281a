@@ -5,7 +5,7 @@
 # filename="v_ApplyEyeMakeup_g15_c05.avi"
 
 outDIR="./Pictures"
-if ![-d $outDIR]; then
+if [ ! -d "$outDIR" ]; then
     mkdir $outDIR
 fi
 
